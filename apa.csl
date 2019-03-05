@@ -268,7 +268,7 @@
                 <text variable="collection-title"/>
               </else>
             </choose>
-            <text variable="number" prefix="No. "/>
+            <text variable="number"/>
           </group>
           <group delimiter=" ">
             <text term="version" text-case="capitalize-first"/>
