@@ -233,6 +233,9 @@
       <else-if type="patent" variable="number" match="all">
         <text macro="patent-number" font-style="italic"/>
       </else-if>
+      <else-if type="webpage" match="any">
+        <text variable="title" font-style="italic"/>
+      </else-if>
       <else>
         <text variable="title"/>
       </else>
