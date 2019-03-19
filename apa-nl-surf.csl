@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
   <info>
-    <title>American Psychological Association 6th edition</title>
-    <title-short>APA</title-short>
-    <id>http://www.zotero.org/styles/apa</id>
-    <link href="http://www.zotero.org/styles/apa" rel="self"/>
-    <link href="http://owl.english.purdue.edu/owl/resource/560/01/" rel="documentation"/>
+    <title>American Psychological Association 6th edition (SURF) (Dutch, The Netherlands)</title>
+    <title-short>APA NL SURF</title-short>
+    <id>http://www.zotero.org/styles/apa-nl-surf</id>
+    <link href="http://www.zotero.org/styles/apa-nl-surf" rel="self"/>
+    <link href="http://www.zotero.org/styles/apa" rel="template"/>
+    <link href="https://www.auteursrechten.nl/binaries/content/assets/subsites-diensten/auteursrechten/surf_de-apa-richtlijnen-uitgelegd_versie-november-2018.pdf" rel="documentation"/>
     <author>
-      <name>Simon Kornblith</name>
-      <email>simon@simonster.com</email>
+      <name>Scribbr</name>
+      <email>info@scribbr.com</email>
     </author>
-    <contributor>
-      <name>Bruce D'Arcus</name>
-    </contributor>
-    <contributor>
-      <name>Curtis M. Humphrey</name>
-    </contributor>
-    <contributor>
-      <name>Richard Karnesky</name>
-      <email>karnesky+zotero@gmail.com</email>
-      <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>
-    </contributor>
-    <contributor>
-      <name>Sebastian Karcher</name>
-    </contributor>
-    <contributor>
-      <name> Brenton M. Wiernik</name>
-      <email>zotero@wiernik.org</email>
-    </contributor>
     <category citation-format="author-date"/>
     <category field="psychology"/>
     <category field="generic-base"/>
-    <updated>2016-09-28T13:09:49+00:00</updated>
+    <summary>Style based on the Dutch manual "De APA-richtlijnen uitgelegd", 2nd edition. According to APA standards, 6th edition.</summary>
+    <updated>2019-03-19T00:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
