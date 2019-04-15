@@ -632,7 +632,7 @@
   </macro>
   <macro name="container">
     <choose>
-      <if type="post-weblog webpage" match="none">
+      <if type="post-weblog" match="none">
         <group>
           <choose>
             <if type="chapter paper-conference entry-encyclopedia" match="any">
