@@ -18,18 +18,14 @@
     <updated>2019-03-19T00:00:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
-  <locale xml:lang="en">
+  <locale xml:lang="nl">
     <terms>
-      <term name="editortranslator" form="short">
-        <single>ed. &amp; trans.</single>
-        <multiple>eds. &amp; trans.</multiple>
+      <term name="edition">
+        <single>edities</single>
+        <multiple>edities</multiple>
       </term>
-      <term name="translator" form="short">trans.</term>
-    </terms>
-  </locale>
-  <locale xml:lang="es">
-    <terms>
-      <term name="from">de</term>
+      <term name="edition" form="short">editie</term>
+      <term name="et-al">et al.</term>
     </terms>
   </locale>
   <macro name="container-contributors">
@@ -391,8 +387,8 @@
             </if>
             <else-if type="article article-magazine article-newspaper broadcast interview pamphlet personal_communication post post-weblog treaty webpage" match="any">
               <date variable="issued">
-                <date-part prefix=", " name="month"/>
-                <date-part prefix=" " name="day"/>
+                <date-part prefix=", " name="day"/>
+                <date-part prefix=" " name="month"/>
               </date>
             </else-if>
             <!-- Only year: article-journal chapter entry entry-dictionary entry-encyclopedia dataset figure graphic motion_picture manuscript map musical_score paper-conference patent report review review-book song thesis -->
