@@ -26,6 +26,7 @@
       </term>
       <term name="edition" form="short">editie</term>
       <term name="et-al">et al.</term>
+      <term name="retrieved at">geraadpleegd op</term>
     </terms>
   </locale>
   <macro name="container-contributors">
@@ -166,7 +167,7 @@
             <choose>
               <if type="post post-weblog webpage" match="any">
                 <group delimiter=" ">
-                  <text term="retrieved" text-case="capitalize-first" suffix=" "/>
+                  <text term="retrieved at" text-case="capitalize-first" suffix=" "/>
                   <group>
                     <date variable="accessed" form="text" suffix=", "/>
                   </group>
