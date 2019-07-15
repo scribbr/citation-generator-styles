@@ -204,14 +204,10 @@
   <macro name="container2-location">
     <choose>
       <if variable="source">
-        <choose>
-          <if variable="DOI URL" match="any">
-            <group delimiter=", ">
-              <text variable="source" font-style="italic"/>
-              <text macro="URI"/>
-            </group>
-          </if>
-        </choose>
+        <group delimiter=", ">
+          <text variable="source" font-style="italic"/>
+          <text macro="URI"/>
+        </group>
       </if>
     </choose>
   </macro>
