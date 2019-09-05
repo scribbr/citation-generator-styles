@@ -167,10 +167,15 @@
             <choose>
               <if type="post post-weblog webpage" match="any">
                 <group delimiter=" ">
-                  <text term="retrieved at" text-case="capitalize-first" suffix=" "/>
-                  <group>
-                    <date variable="accessed" form="text" suffix=", "/>
-                  </group>
+                  <choose>
+                    <if variable="accessed">
+                      <text term="retrieved at" text-case="capitalize-first" suffix=" "/>
+                      <date variable="accessed" form="text" suffix=", "/>
+                    </if>
+                    <else>
+                      <text term="retrieved" text-case="capitalize-first" suffix=" "/>
+                    </else>
+                  </choose>
                   <text term="from"/>
                   <text variable="URL"/>
                 </group>
@@ -261,7 +266,7 @@
           <text macro="edition"/>
         </group>
       </if>
-      <else-if type="post-weblog webpage" match="any">
+      <else-if type="post-weblog webpage graphic" match="any">
         <text variable="genre" prefix=" [" suffix="]"/>
       </else-if>
       <else-if variable="version">
@@ -318,7 +323,7 @@
           </choose>
         </group>
       </else-if>
-      <else-if type="post-weblog webpage" match="none">
+      <else-if type="post-weblog webpage graphic" match="none">
         <group delimiter=", ">
           <choose>
             <if variable="event version" type="speech dataset motion_picture" match="none">
